@@ -29,7 +29,7 @@ def pixel_swapping(arr, block_size, seed):
     random.seed(seed)
     h, w = arr.shape[:2]
     
-    # Create block grid
+    # block grid
     blocks = []
     for y in range(0, h, block_size):
         for x in range(0, w, block_size):
