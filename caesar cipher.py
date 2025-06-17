@@ -14,11 +14,11 @@ def caesar_cipher_encrypt(text, shift):
 def caesar_cipher_decrypt(text, shift):
     return caesar_cipher_encrypt(text, -shift)
 
-# Get user input
+
 message = input("Enter the message: ")
 shift = int(input("Enter the shift value (integer): "))
 
-# Perform encryption and decryption
+
 encrypted_message = caesar_cipher_encrypt(message, shift)
 decrypted_message = caesar_cipher_decrypt(encrypted_message, shift)
 
